@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+ 
+
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+ul{
+    list-style: none;
+    font-weight: bold;
+    color: black;
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+header{
+    background: no-repeat center/cover url('https://istoe.com.br/wp-content/uploads/2022/06/neo-quimica-arena.jpg');
+    height: calc(100vh - 10px);
+    
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 90px;
+}
+
+header nav p{
+    font-weight: bold;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    margin: 0 15px;
+}
+
+.header-content {
+    max-width: 400px;
+    margin: 150px auto;
+    text-align: center;
+    
+}
+
+.header-content p{
+    background-color: #e1e8f7;
+    padding: 15px 12px;
+    border-radius: 8px;
+    
+}
+
+.header-content h1{
+    margin-bottom:  10px;
+    font-size: 4rem;
+    text-shadow: 0px 0px 15px rgb(255, 255, 255);
+}
+
+.Jogadores {
+    background: black;
+    padding: 15px;
+}
+
+.Jogadores .Jogadores-cards {
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Jogadores .Jogadores-title {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+    color: white;
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5)
+}
+
+.Jogadores .card{
+    width: 250px;
+    height: 350px;
+    background: white;
+    border-radius: 24px 0;
+    margin: 25px;
+    position: relative;
+}
+
+.Jogadores .card-image{
+    width:  250px;
+    height: 200px;
+    border-radius: 24px 0 0 0;
+    object-fit: cover;
+    transition: all 1s;
+}
+
+.Jogadores .card-image:hover{
+    transform: scale(1.1);
+}
+
+.Jogadores .card-content {
+    padding: 0 15px;
+}
+
+.Jogadores .card-content ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.Jogadores .card-content ul li{
+    font-size: 0.6rem;
+    display: flex;
+    align-items: center;
+    margin: 3px;
+    color: grey;
+    font-weight: bold;
+}
+
+.Jogadores .card-content li svg{
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.Jogadores .card-content h1{
+    font-size: 1rem;
+}
+
+.Jogadores .card .card-tag-top{
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background: red;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.Jogadores .card .card-tag-bottom{
+    position: absolute;
+    left: 0;
+    top: 160px;
+    background: black;
+    border-radius: 0 8px 8px 0;
+    padding: 5px 10px;
+}
+
+.Jogadores .card .card-tag p{
+    margin: 0;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
+
+.Titulos {
+    padding: 15px;
+}
+
+.Titulos .Titulos-title{
+    text-align: center;
+    margin: 35px 0;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4)
+}
+
+.Titulos .Titulos-cards{
+    margin-top: 25px;
+    display: flex;
+    max-width: 950px;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.Titulos .card{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.Titulos .card svg{
+    width: 60px;
+    height: 60px;
+    margin: 50px;
+    transition: all 1s;
+}
+
+.Titulos .card svg:hover{
+    stroke: #1d61dd;
+    transform: scale(1.1);
+}
+
+.Titulos .card h3{
+    font-weight: bold;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.Titulos .card p{
+    color: grey;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.localização {
+    padding: 60px;
+    background: #e1e8f7;
+    position: relative;
+    text-align: right;
+}
+
+.localização .localização-card{
+    width: 350px;
+    height: 300px;
+    background: white;
+    position: absolute;
+    z-index: 99;
+    border-radius: 8px;
+    top: calc(50% - 150px);
+    left: calc(20% - 175px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.localização .localização-card h1{
+    padding-left: 50px;
+    text-align: left;
+}
+
+.localização .localização-card li{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: grey;
+    display: flex;
+    align-items: center;
+
+}
